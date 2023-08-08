@@ -8,6 +8,8 @@
 - Add to cart
 - Delete from cart
 - Update cart items
+- Lightbox
+- Slideshow
 - Toastify messages
 
 # Getting Started with Create React App
