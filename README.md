@@ -1,3 +1,15 @@
+# Ecommerce website
+- I solved this frontend mentor challenge using ReactJs
+  
+# Live link
+- (https://frontend-m-challenge-ecommerce-site.netlify.app/)
+
+# Features
+- Add to cart
+- Delete from cart
+- Update cart items
+- Toastify messages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
