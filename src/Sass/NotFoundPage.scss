@@ -1,0 +1,53 @@
+// variables
+@import "variables";
+
+// fonts
+// 700
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+.notFoundContainer button {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    border: 0;
+    color: $White;
+    background-color: $Orange;
+    padding: 8px 15px;
+    border-radius: 8px;
+    &:hover {
+        color: $White;
+        background-color: $OrangeOpacity;
+    }
+}
+
+.notFoundContainer a {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    border: 0;
+    color: $White;
+    background-color: $Orange;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    &:hover {
+        color: $White;
+        background-color: $OrangeOpacity;
+    }
+}
+
+.notFound {
+    text-align: center;
+}
+
+.notFound h2 {
+    color: $Very-dark-blue;
+    margin: 15px 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+.notFound p {
+    margin: 15px 0 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: $Dark-grayish-blue;
+    font-weight: 500;
+}

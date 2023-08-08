@@ -1,0 +1,60 @@
+// variables
+@import "variables";
+
+// fonts
+// 700
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+// 400
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.cartPage img {
+    width: 50px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.cartPage .delete button {
+    background-color: $White;
+    border: 0;
+    color: $Orange;
+    &:hover {
+        color: $OrangeOpacity;
+        cursor: pointer;
+    }
+}
+
+.cartPage .viewItems {
+    text-align: center;
+}
+
+.cartPage .viewItems a{
+    color: $Dark-grayish-blue;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    &:hover {
+        color: $Very-dark-blue;
+    }
+}
+
+.cartPage .checkout {
+    text-align: center;
+}
+
+.cartPage .checkout button {
+    background-color: $Orange;
+    color: $White;
+    padding: 8px 63px;
+    border-radius: 8px;
+    border: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    &:hover {
+        background-color: $OrangeOpacity;
+        cursor: pointer;
+    }
+}

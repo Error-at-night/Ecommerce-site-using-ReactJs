@@ -1,0 +1,54 @@
+// variables
+@import "variables.scss";
+
+// fonts
+// 700
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+// 400
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+.displayPageContainer {
+    overflow-x: hidden;
+}
+
+.displayPage h4.name{
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.displayPage h4.price span.first{
+    color: $Dark-grayish-blue;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.displayPage h4.price span.second{
+    color: $Very-dark-blue;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.displayPage .delete button {
+    border: 0;
+    background-color: $White;
+    color: $Orange;
+    &:hover {
+        color: $OrangeOpacity;
+    }
+}
+
+div .cartIsEmpty {
+    color: $Very-dark-blue;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+    .displayPage h4.name {
+        font-size: 20px;
+    }
+}

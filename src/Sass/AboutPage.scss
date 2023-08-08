@@ -1,0 +1,21 @@
+// variables
+@import "variables.scss";
+
+// fonts
+// 700
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+// 400
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+.aboutPage h2 {
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: $Very-dark-blue;
+}
+
+.aboutPage p {
+    color: $Dark-grayish-blue;
+    font-weight: 500;
+    font-family: 'Kumbh Sans', sans-serif;
+}

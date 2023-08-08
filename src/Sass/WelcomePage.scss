@@ -1,0 +1,83 @@
+// variables
+@import "variables";
+
+// fonts
+// 700
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+// 400
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+.welcomePage h2 {
+    font-size: 23px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: $Very-dark-blue;
+}
+
+.welcomePage p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: $Dark-grayish-blue;
+}
+
+.welcomePage a {
+    background-color: $Orange;
+    color: $White;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    &:hover {
+        color: $White;
+        background-color: $OrangeOpacity;
+        cursor: pointer;
+    }
+}
+
+.welcomePage .image {
+    margin-top: 28px;
+}
+
+@media screen and (min-width: 432px) {
+    .welcomePage h2 {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 490px) {
+    .welcomePage h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 548px) {
+    .welcomePage h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .welcomePage h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .welcomePage h2 {
+        font-size: 30px;
+    }
+
+    .welcomePage .image {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .welcomePage h2 {
+        font-size: 39px;
+    }
+}

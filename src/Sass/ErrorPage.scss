@@ -1,0 +1,38 @@
+// variables
+@import "variables";
+
+// fonts
+// 700
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+.error {
+    text-align: center;
+}
+
+.error h1 {
+    color: $Very-dark-blue;
+    margin: 15px 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+.error p {
+    margin: 15px 0 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: $Dark-grayish-blue;
+    font-weight: 500;
+}
+
+.error button {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    border: 0;
+    color: $White;
+    background-color: $Orange;
+    padding: 8px 15px;
+    border-radius: 8px;
+    &:hover {
+        color: $White;
+        background-color: $OrangeOpacity;
+    }
+}

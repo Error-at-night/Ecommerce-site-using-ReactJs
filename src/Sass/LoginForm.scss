@@ -1,0 +1,151 @@
+// variables
+@import "variables";
+
+// fonts
+// 700
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+// 400
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+.LoginContainer {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.LoginForm h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: $Very-dark-blue;
+}
+
+.LoginForm p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: $Dark-grayish-blue;
+}
+
+.LoginForm input:nth-child(1) {
+    width: 100%;
+    padding: 7px 14px;
+    max-width: 350px;
+    outline: none;
+    color: $Very-dark-blue;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 8px;
+    &:focus {
+        border: 2px solid $Orange;
+    }
+}
+
+.LoginForm input::placeholder {
+    color: $Dark-grayish-blue;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.LoginForm button {
+    background-color: $Orange;
+    color: $White;
+    padding: 8px 18px;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    &:hover {
+        background-color: $OrangeOpacity;
+    }
+}
+
+@media screen and (min-width: 296px) {
+    .LoginForm h2 {
+        font-size: 24px;
+    }
+
+    .LoginForm p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .LoginForm h2 {
+        font-size: 28px;
+    }
+
+    .LoginForm p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 404px) {
+    .LoginForm h2 {
+        font-size: 32px;
+    }
+
+    .LoginForm p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 458px) {
+    .LoginForm h2 {
+        font-size: 36px;
+    }
+
+    .LoginForm p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 512px) {
+    .LoginForm h2 {
+        font-size: 38px;
+    }
+
+    .LoginForm p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .LoginForm h2 {
+        font-size: 40px;
+    }
+
+    .LoginForm p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 567px) {
+    .LoginForm h2 {
+        font-size: 42px;
+    }
+
+    .LoginForm p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .LoginForm h2 {
+        font-size: 35px;
+    }
+
+    .LoginForm p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .LoginForm h2 {
+        font-size: 39px;
+    }
+
+    .LoginForm p {
+        font-size: 22px;
+    }
+}
