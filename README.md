@@ -2,7 +2,7 @@
 - I solved this frontend mentor challenge using ReactJs
   
 # Live link
-- (https://frontend-m-challenge-ecommerce-site.netlify.app/)
+- (https://frontendmentor-challenge-ecommerce-site.vercel.app/)
 
 # Features
 - Add to cart
