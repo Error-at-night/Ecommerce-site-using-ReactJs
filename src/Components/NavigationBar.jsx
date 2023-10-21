@@ -51,12 +51,12 @@ const NavigationBar = () => {
             <Navbar.Collapse id="mySidenav" className="align-items-center mt-0 mt-lg-2"> 
               <Nav style={{ width: navWidth}} className={`me-auto mx-auto ms-sm-4 ms-0 align-items-center sidenav ${isOpen ? 'open' : ''}`}>
                 <button className="closebtn" onClick={closeNav} style={{fontSize: "40px"}}>&times;</button>
-                <NavLink to="/" className="mx-lg-3 m-sm-0 nav-link home">Home</NavLink>
-                <NavLink to="/collections" className="mx-lg-3 m-sm-0 nav-link collections">Collections</NavLink>
-                <NavLink to="/men" className="mx-lg-3 m-sm-0 nav-link">Men</NavLink>
-                <NavLink to="/women" className="mx-lg-3 m-sm-0 nav-link">Women</NavLink>
-                <NavLink to="/about" className="mx-lg-3 m-sm-0 nav-link">About</NavLink>
-                <NavLink to="/contact" className="mx-lg-3 m-sm-0 nav-link">Contact</NavLink>
+                <NavLink to="/" className="mx-lg-3 m-sm-0 nav-link home" onClick={closeNav}>Home</NavLink>
+                <NavLink to="/collections" className="mx-lg-3 m-sm-0 nav-link collections" onClick={closeNav}>Collections</NavLink>
+                <NavLink to="/men" className="mx-lg-3 m-sm-0 nav-link" onClick={closeNav}>Men</NavLink>
+                <NavLink to="/women" className="mx-lg-3 m-sm-0 nav-link" onClick={closeNav}>Women</NavLink>
+                <NavLink to="/about" className="mx-lg-3 m-sm-0 nav-link" onClick={closeNav}>About</NavLink>
+                <NavLink to="/contact" className="mx-lg-3 m-sm-0 nav-link" onClick={closeNav}>Contact</NavLink>
               </Nav>
             </Navbar.Collapse>
             <div className="dropdownContainer align-items-center d-flex">
